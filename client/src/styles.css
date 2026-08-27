@@ -12,7 +12,21 @@
 .auth-modal .form-control:focus { border-color:var(--ink); box-shadow:0 0 0 2px var(--coral); }
 .auth-error { color:#a33d2c; font-size:.84rem; }
 .switch-auth { border:0; background:none; color:var(--ink); font:500 .7rem 'DM Mono',monospace; text-decoration:underline; }
+.demo-login { border:1px dashed var(--ink); background:transparent; padding:10px; font:500 .68rem 'DM Mono',monospace; }
 .dashboard { padding:58px 0 20px; border-bottom:1px solid var(--line); }
+.registered-badge { display:inline-flex; align-items:center; gap:5px; border:1px solid var(--ink); background:var(--mint); padding:5px 8px; font:500 .63rem 'DM Mono',monospace; text-transform:uppercase; }
+.registered-arrow { background:var(--ink); color:white; }
+.registrations { padding:35px 0 70px; border-top:1px solid var(--line); }
+.registration-tools { display:flex; align-items:center; gap:12px; }
+.section-description { color:#68726b; font-size:.9rem; margin:12px 0 0; }
+.registration-state { border:1px solid var(--line); padding:42px 24px; text-align:center; color:#68726b; }
+.registration-state p { margin:10px auto 0; max-width:430px; line-height:1.5; }
+.registration-empty { background:#e6dcb9; }
+.registration-empty h3 { color:var(--ink); font:700 1.35rem 'Syne',sans-serif; margin:16px 0 0; }
+.state-icon { width:58px; height:58px; margin:0 auto; display:grid; place-items:center; border:1px solid var(--ink); border-radius:50%; color:var(--coral); }
+.registration-empty .btn { margin-top:22px; }
+.registration-error { display:flex; align-items:center; justify-content:center; gap:12px; color:#a33d2c; }
+.registration-error p { margin:0; }
 .dashboard-head,.dashboard-grid,.form-heading,.admin-event,.admin-actions,.admin-row { display:flex; align-items:center; justify-content:space-between; gap:14px; }
 .dashboard-head { align-items:end; margin-bottom:25px; }.dashboard-head h2 { margin:9px 0 0; font-size:2.3rem; }.admin-chip { background:var(--coral); padding:7px 10px; font:500 .65rem 'DM Mono',monospace; }
 .stat-row { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:15px; }.stat-row div { border:1px solid var(--line); padding:15px 18px; background:#e6dcb9; }.stat-row span { display:block; font:500 .63rem 'DM Mono',monospace; color:#58635d; }.stat-row strong { display:block; font:700 1.6rem 'Syne',sans-serif; margin-top:4px; }
